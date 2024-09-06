@@ -1,0 +1,240 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+#robot {
+    margin: auto;
+    padding-top: 100px;
+    width: 200px;
+}
+
+/* Cabeza y elementos */
+#cabeza {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    margin: auto;
+}
+
+#ojo1, #ojo2 {
+    width: 25px;
+    height: 25px;
+    background-color: purple;
+    position: absolute;
+    top: 20px;
+    
+}
+
+#ojo1 {
+    left: 15px;
+}
+
+#ojo2 {
+    right: 15px;
+}
+
+#nariz {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#boca {
+    width: 60px;
+    height: 10px;
+    background-color: purple;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#oreja1, #oreja2 {
+    width: 25px;
+    height: 25px;
+    background-color: rgb(65, 219, 65);
+    position: absolute;
+    top: 40px;
+    border-radius: 50%;
+}
+
+#oreja1 {
+    left: -23px;
+}
+
+#oreja2 {
+    right: -23px;
+}
+
+#antena {
+    width: 5px;
+    height: 40px;
+    background-color: blue;
+    position: absolute;
+    top: -40px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#bola_antena {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(70, 238, 70);
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+#cuello {
+    width: 30px;
+    height: 35px;
+    background-color: orange;
+    margin: auto;
+    margin-top: -10px;
+}
+
+#cuerpo {
+    width: 150px;
+    height: 100px;
+    background-color: orange;
+    margin: auto;
+    margin-top: -10px;
+    position: relative;
+}
+
+#seccion1 {
+    width: 90px;
+    height: 20px;
+    background-color: limegreen;
+    margin-top: 10px;
+    position: absolute;
+    left: 30px;
+    top: 10px;
+}
+
+#seccion2 {
+    width: 90px;
+    height: 20px;
+    background-color: limegreen;
+    margin-top: 20px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#conexion {
+    width: 100px;
+    height: 30px;
+    background-color: orange;
+    margin: auto;
+    margin-top: -10px;
+}
+#base {
+    width: 200px;
+    height: 120px;
+    background-color: orange;
+    margin: auto;
+    margin-top: -10px;
+    position: relative;
+}
+
+#linea1{
+    width: 30px;
+    height: 80px;
+    background-color: limegreen;
+  
+    margin-top: 10px;
+    position: absolute;
+    left: 25px;
+    top: 10px;
+}
+
+#linea2{
+    width: 30px;
+    height: 80px;
+    background-color: limegreen;
+    margin:auto;
+    position: absolute;
+    left: 655px;
+    top: 387px;
+}
+
+#linea3{
+    width: 30px;
+    height: 80px;
+    background-color: limegreen;
+    margin: auto;
+  
+    position: absolute;
+    right: 600px;
+    top: 387px;
+}
+#brazos {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: -210px;
+    left: 510px;
+   
+}
+
+#brazo1{
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+    transform: rotate(45deg);
+   
+    
+}
+
+#brazo2{
+    width: 100px;
+    height: 10px;
+    background-color: blue;
+    position: absolute;
+    transform: rotate(135deg);
+   
+    left: 226px;
+}
+
+#mano1, #mano2 {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+#mano1 {
+    position: absolute;
+    left: 0;
+    top: -43px;
+}
+
+#mano2 {
+    position: absolute;
+    right: -20px;
+    top: -43px;
+}
